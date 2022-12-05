@@ -64,7 +64,7 @@ mod tests {
     use indoc::indoc;
 
     #[test]
-    fn test_parse_input_part1() {
+    fn test_parse_input() {
         let expected: Vec<(Assignment, Assignment)> = vec![
             (
                 Assignment { start: 2, end: 4 },

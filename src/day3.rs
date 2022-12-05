@@ -63,7 +63,7 @@ mod tests {
     use indoc::indoc;
 
     #[test]
-    fn test_parse_input_part1() {
+    fn test_parse_input() {
         let expected: Vec<Vec<char>> = vec![
             String::from("vJrwpWtwJgWrhcsFMMfFFhFp").chars().collect(),
             String::from("jqHRNqRjqzjGDLGLrsFMfFZSrLrFZsSL")
