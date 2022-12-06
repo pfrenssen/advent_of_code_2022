@@ -1,5 +1,4 @@
 use aoc_runner_derive::{aoc, aoc_generator};
-use regex::Regex;
 
 #[aoc_generator(day6)]
 fn parse_input(input: &str) -> String {
