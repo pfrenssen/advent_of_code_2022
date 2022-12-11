@@ -31,7 +31,6 @@ fn find_non_consecutive(datastream: &str, count: usize) -> usize {
 #[cfg(test)]
 mod tests {
     use super::*;
-    use indoc::indoc;
 
     #[test]
     fn test_parse_input() {
@@ -56,7 +55,6 @@ mod tests {
     fn part1_example() {
         let test_cases = get_test_input_part1();
         for (input, expected) in test_cases {
-            let parsed = part1(&input);
             assert_eq!(expected, part1(&input));
         }
     }
@@ -65,7 +63,6 @@ mod tests {
     fn part2_example() {
         let test_cases = get_test_input_part2();
         for (input, expected) in test_cases {
-            let parsed = part2(&input);
             assert_eq!(expected, part2(&input));
         }
     }
